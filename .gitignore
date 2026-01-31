@@ -1,0 +1,16 @@
+# Secrets
+credentials/
+tokens/
+
+# Build output
+bin/
+out/
+target/
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# Logs
+*.log
