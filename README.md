@@ -12,17 +12,15 @@ This project is a Java-based console application that allows users to interact w
 - OAuth 2.0 login flow
 
 ##  Tech Stack
-
 - Java 11+
 - Google Sheets API
 - Google Drive API
 - OAuth 2.0 Desktop Flow
 - Eclipse IDE
-- Git & GitHub
 
 ##  Setup Instructions
 
- OAuth credentials are NOT included in this repository.
+OAuth credentials are NOT included in this repository.
 
 Each user must create their own:
 
@@ -36,29 +34,18 @@ Each user must create their own:
 6. Place it inside:
 credentials/oauth.json
 7. Run the application and complete browser login.
-
    
 ## How to Run
-
 - Import project into Eclipse
 - Add required JARs to classpath
 - Run `GoogleSheetsApplication.java`
 - Follow menu prompts
 
-##  Security Notes
-
-Do NOT commit:
-
-- `credentials/`
-- `tokens/`
-
-These are ignored via `.gitignore`.
-
 ##  Documentation
 
 A Detailed Design Document (DDD) is available here:
 
-(Google Docs link)
+(https://docs.google.com/document/d/1iFkNLTqFpUIH7EHoAgcM0lhxKvWhvZ8_WvcrJsIRw0Y/edit?usp=sharing)
 
 ##  Author
 
